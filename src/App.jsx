@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./App.scss"
-import Dock from './components/dock'
+import Dock from './components/Dock'
 import Nav from './components/Nav'
 
 import Github from './components/windows/Github'

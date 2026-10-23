@@ -1,5 +1,5 @@
 import React from 'react'
-import "./dock.scss"
+import "./Dock.scss"
 
 const Dock = ({ windowsState, setWindowsState }) => {
     return (
