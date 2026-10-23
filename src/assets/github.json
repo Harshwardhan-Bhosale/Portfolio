@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/1JPzwSw0/logo.jpg",
+    "title": "AI Teacher Assistant",
+    "description": "Built a local AI Teaching Assistant using Whisper, BGE-M3 embeddings, and Gemma 2 to search lecture transcripts and provide contextual answers with relevant lesson numbers and timestamps.",
+    "tags": ["Python", "Whisper", "Ollama", "BGE-M3"," Gemma 2", "FFmpeg"," Scikit-learn", "Joblib"],
+    "repoLink": "https://github.com/Harshwardhan-Bhosale/Ai-Teacher-Assistant",
+    "demoLink": ""
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" ,
+    "title": "Productivity Dashboard",
+    "description": "Developed a Productivity Dashboard featuring a To-Do List, Daily Planner with local storage persistence, API-powered dynamic motivational quotes, and a Pomodoro Timer for efficient time management.",
+    "tags": ["HTML5", "CSS3", "JavaScript", "REST API", "Local Storage"],
+    "repoLink": "https://github.com/Harshwardhan-Bhosale/Productivity-Dashboard",
+    "demoLink": ""
+  }
+]

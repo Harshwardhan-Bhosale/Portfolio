@@ -1,0 +1,227 @@
+```typescript
+/**
+ * @file: profile.config.ts
+ * @author: Harshwardhan Bhosale
+ * @summary: Full-Stack Web Developer | AI & Machine Learning Enthusiast
+ */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "React.js",
+    "Vite",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Sass",
+    "Tailwind CSS",
+    "Responsive Design",
+  ],
+
+  backend: [
+    "Node.js",
+    "Express.js",
+    "REST APIs",
+    "JWT Authentication",
+    "bcrypt",
+  ],
+
+  databases: [
+    "MongoDB",
+    "Mongoose",
+    "MySQL",
+  ],
+
+  ai_ml: [
+    "Python",
+    "Scikit-learn",
+    "NumPy",
+    "Pandas",
+    "LLMs",
+    "RAG",
+    "Embeddings",
+    "Semantic Search",
+    "OpenAI Whisper",
+    "Ollama",
+  ],
+
+  data_analysis: [
+    "Exploratory Data Analysis",
+    "Matplotlib",
+    "Seaborn",
+    "Data Visualization",
+  ],
+
+  tools: [
+    "GitHub",
+    "VS Code",
+    "Postman",
+    "Vercel",
+    "Jupyter Notebook",
+    "FFmpeg",
+  ],
+};
+
+// --------------------------------------------------
+// 2. PROFESSIONAL EXPERIENCE
+// --------------------------------------------------
+
+class ProfessionalHistory {
+
+  /**
+   * DATA SCIENCE INTERN
+   * Organization: Prodigy InfoTech
+   * Period: December 2025 - January 2026
+   */
+  public ProdigyInfoTech(): object {
+    const role = "Data Science Intern";
+
+    const responsibilities = [
+      "Performed data cleaning and exploratory data analysis",
+      "Created data visualizations using Matplotlib and Seaborn",
+      "Developed a Decision Tree classifier using Scikit-learn",
+      "Predicted customer purchasing behavior using bank marketing data",
+      "Performed Twitter sentiment analysis",
+    ];
+
+    const technologies = [
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "Matplotlib",
+      "Seaborn",
+    ];
+
+    return { role, responsibilities, technologies };
+  }
+}
+
+// --------------------------------------------------
+// 3. FEATURED PROJECTS
+// --------------------------------------------------
+
+interface Project {
+  name: string;
+  category: string;
+  technologies: string[];
+  impact: string;
+}
+
+const featuredProjects: Project[] = [
+  {
+    name: "AI Teacher Assistant",
+    category: "AI / Retrieval-Augmented Generation",
+    technologies: [
+      "Python",
+      "Whisper",
+      "BGE-M3",
+      "Ollama",
+      "Gemma 2",
+      "FFmpeg",
+      "Scikit-learn",
+    ],
+    impact:
+      "Processed 20 Java lecture videos (1.9 hours) into 372 timestamped " +
+      "transcript chunks. Achieved 97.5% top-5 lesson accuracy and " +
+      "92.5% timestamp accuracy on 40 synthetic questions, with " +
+      "approximately 6-second local response time.",
+  },
+
+  {
+    name: "Productivity Dashboard",
+    category: "Frontend Development",
+    technologies: [
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "REST APIs",
+      "Local Storage",
+    ],
+    impact:
+      "Built a productivity dashboard with four modules: To-Do List, " +
+      "Daily Planner, motivational content, and Pomodoro Timer. " +
+      "Integrated live weather data and persistent local storage.",
+  },
+];
+
+// --------------------------------------------------
+// 4. ADDITIONAL TECHNICAL INTERESTS
+// --------------------------------------------------
+
+const interests = [
+  "Full-Stack Web Development",
+  "Artificial Intelligence",
+  "Machine Learning",
+  "Large Language Models",
+  "Retrieval-Augmented Generation",
+  "Data Science",
+  "Building Practical Software Projects",
+];
+
+// --------------------------------------------------
+// 5. EDUCATION
+// --------------------------------------------------
+
+const education = {
+  degree: "Bachelor of Engineering",
+  institution: "PES Modern College of Engineering",
+  location: "Pune, India",
+  period: "August 2023 - Present",
+};
+
+// --------------------------------------------------
+// 6. CONTACT & AVAILABILITY
+// --------------------------------------------------
+
+const profile = {
+  name: "Harshwardhan Bhosale",
+  email: "harshwardhanbhosale2307@gmail.com",
+  phone: "8799934727",
+  location: "Pune, India",
+  github: "https://github.com/Harshwardhan-Bhosale",
+
+  title: "Full-Stack Developer & AI Enthusiast",
+
+  status: "Open to Internship & Entry-Level Opportunities",
+
+  strengths: [
+    "Problem Solving",
+    "Team Leadership",
+    "Project Ownership",
+    "Continuous Learning",
+  ],
+};
+
+export default new ProfessionalHistory();
+```
+
+```bash
+# TERMINAL OUTPUT
+# ---------------------------------------
+
+$ user --status
+
+> Name: Harshwardhan Bhosale
+> Role: Full-Stack Developer & AI Enthusiast
+> Location: Pune, India
+
+> Frontend: React | JavaScript | HTML | CSS
+> Backend: Node.js | Express | REST APIs
+> AI/ML: Python | RAG | LLMs | Scikit-learn
+
+> Featured Projects: 2
+> RAG Pipeline: 20 Lecture Videos | 372 Chunks
+> Top-5 Lesson Accuracy: 97.5%
+> Timestamp Accuracy: 92.5%
+> Local AI Response: ~6 Seconds
+
+> Experience: Data Science Intern
+> Organization: Prodigy InfoTech
+
+> Status: Open to Opportunities
+> Loading Portfolio Assets... [||||||||||] 100%
+> Ready.
+```

@@ -1,0 +1,55 @@
+.dock{
+    display: flex;
+    position: absolute;
+    bottom: 0.6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(84, 84, 84, 0.341);
+    padding-inline: 0.5rem;
+    padding-block: 0.3rem;
+    backdrop-filter: blur(5px);
+    border-radius: 0.65rem;
+    gap: 0.5rem;
+    
+    z-index: 1;
+    
+    img{
+        height: 1.3rem;
+    }
+    
+
+    .icon{
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 1/1;
+        width: 2.5rem;
+        transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    .github,.cli{
+        background-color: black;
+    }
+    .note{
+        background:linear-gradient(to bottom,rgb(255, 187, 104),rgb(251, 149, 23));
+    }
+    .pdf{
+        background:linear-gradient(to bottom,rgb(255, 86, 108),rgb(255, 13, 45)) ;
+    }
+    .calender,.mail{
+        background:linear-gradient(to bottom,rgb(153, 106, 255),rgb(101, 30, 254));
+    }
+    .spotify{
+        background:linear-gradient(to bottom,rgb(28, 171, 35),rgb(1, 114, 6)) ;
+    }
+    .link{
+        background:linear-gradient(to bottom,rgb(184, 67, 208),rgb(149, 21, 174)) ;
+    }
+    .icon:hover{
+        transform: scale(1.25) translateY(-25%);
+    }
+    .icon:hover +.icon,.icon:has(+.icon:hover){
+        transform: scale(1.1) translateY(-10%);
+    }
+}
